@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#main-content {
+    background: blue;
+    order: 2;
+    flex-grow: 2;
+}
+
+#sidebar-container {
+    background: green;
+    order: 1;
+    min-width: 250px;
+    padding: 1rem;
+    height: 100vh;
+}
+
+#top-bar {
+    background: aqua;
+    padding: 0.5rem;
+}
+
+#top-bar-content {
+    float: right;
+    margin-right: 5px;
+}
+
+#root-container {
+    display: flex;
+    flex-direction: row;
+    background: yellow;
+    margin: 0;
+    height: 100%
+;}
+
+#app {
+    margin: 0;
+    height: 100%;
+    background: yellow;
+}
+
+.cup-list-item{
+    color: bisque;
+    list-style-type: none;
+    text-align: center;
+    border: none;
+}
+
+ul {
+    background: brown;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.cup-list-item:hover{
+    background: blueviolet;
+}
+
